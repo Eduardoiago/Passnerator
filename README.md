@@ -33,6 +33,10 @@ To see the project online just click on [HERE](https://passnerator.netlify.app/)
 - The user can add the number of characters the password will have. It can vary with character options, use uppercase letters, lowercase letters, numbers or symbols.
 - A password alphabet is generated based on the user's answers, which is a string of characters containing the chosen characters.
 
+## Technologies used:
+
+`HTML`   `CSS`   `JavaScript`   `Toastify`
+
 > ## Interface
 
 <img src="https://i.ibb.co/LpGxgdn/interface-passnerator.png" alt="interface-passnerator" border="0">
