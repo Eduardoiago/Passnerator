@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Press+Start+2P&family=Rubik+Mono+One&family=Russo+One&display=swap');
+
+:root
+{
+    --color-primary-1: #0681af;
+    --color-primary-2: #017297;
+    --color-primary-3: #af66da;
+    --color-primary-4: #663b7f;
+    --color-primary-5: #282129;
+}
+
+/* CSS Geral */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reddit Mono", monospace;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--color-primary-5);
+}
+
+/* CSS - Body */
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 0 18px;
+}
+
+h1
+{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 35px;
+    color: var(--color-primary-3);
+}
+
+#size
+{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+#size::-webkit-inner-spin-button,
+#size::-webkit-outer-spin-button
+{
+    opacity: 1;
+}
+
+#size:focus
+{
+    outline: 1px solid var(--color-primary-5);
+}
+
+#password_container
+{
+    width: 100%;
+    max-width: 400px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary-4);
+    color: white;
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+
+#password_container.show
+{
+    display: flex;
+}
+
+#password
+{
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#copy
+{
+    background-color: transparent;
+    border: none;
+    color: var(--color-primary-3);
+    height: 40px;
+    width: 30px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+#copy:hover
+{
+    color: var(--color-primary-5);
+}
+
+#password_items
+{
+    width: 400px;
+    background-color: var(--color-primary-4);
+    color: #e7e1e1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px;
+}
+
+/* CSS - BTN Gerar senha*/
+#generate
+{
+    font-family: "Press Start 2P", system-ui;
+    margin: 0;
+    color: var(--color-primary-5);
+    background-color: var(--color-primary-3);
+    font-size: 14px;
+    font-weight: 300;
+    padding: 9px 100px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    border-radius: 20px;
+}
+
+#generate:hover
+{
+    background-color: var(--color-primary-2);
+    color: white;
+}
+
+/* CSS - BTN Links*/
+.github_btn a
+{
+    color: var(--color-primary-3);
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.github_btn a:hover
+{
+    color: var(--color-primary-1);
+}
+
+@media screen and (max-width:480px)
+{
+
+    #container{
+        height: 100vh;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+}
