@@ -12,7 +12,7 @@ Their own name or the name of a family member, Their pet’s name, Their birthda
 
 To see the project online just click on [HERE](https://passnerator.netlify.app/) or enter the link [passnerator.netlify.app](https://passnerator.netlify.app).
 
-- ## Configuration
+## Configuration
 
 |                          Description                 | Default |
 |------------------------------------------------------| ------- |
@@ -33,16 +33,12 @@ To see the project online just click on [HERE](https://passnerator.netlify.app/)
 - The user can add the number of characters the password will have. It can vary with character options, use uppercase letters, lowercase letters, numbers or symbols.
 - A password alphabet is generated based on the user's answers, which is a string of characters containing the chosen characters.
 
-## Technologies used:
-
-`HTML`   `CSS`   `JavaScript`   `Toastify`
-
-> ## Interface
+## Interface
 
 <img src="https://i.ibb.co/LpGxgdn/interface-passnerator.png" alt="interface-passnerator" border="0">
 <img src="https://i.ibb.co/gRLHpLd/interface-generate.png" alt="interface-generate" border="0">
 
-- ## Color palette:
+## Color palette:
 
 <img src="https://i.ibb.co/X5x3bZh/passnerator.jpg" alt="passnerator" border="0">
 
@@ -59,3 +55,8 @@ To see the project online just click on [HERE](https://passnerator.netlify.app/)
 
 ## License
  * [MIT](LICENSE)
+
+
+## Technologies used:
+
+`HTML`   `CSS`   `JavaScript`   `Toastify`
