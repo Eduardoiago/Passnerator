@@ -36,7 +36,6 @@ To see the project online just click on [HERE](https://passnerator.netlify.app/)
 ## Interface
 
 <img src="https://i.ibb.co/LpGxgdn/interface-passnerator.png" alt="interface-passnerator" border="0">
-<img src="https://i.ibb.co/gRLHpLd/interface-generate.png" alt="interface-generate" border="0">
 
 ## Color palette:
 
