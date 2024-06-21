@@ -2,14 +2,11 @@
 
 :root
 {
-    --color-primary-1: #0681af;
-    --color-primary-2: #017297;
-    --color-primary-3: #af66da;
-    --color-primary-4: #663b7f;
+    --color-primary-3: #846ba7;
+    --color-primary-4: #30135e;
     --color-primary-5: #282129;
 }
 
-/* CSS Geral */
 *
 {
     margin: 0;
@@ -24,25 +21,27 @@ body
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: var(--color-primary-5);
+    background-color: var(--color-primary-3);
+    background-image: url(../assets/img/background-passnerator\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
-/* CSS - Body */
 #container
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 0 18px;
-}
-
-h1
-{
-    font-family: "Press Start 2P", system-ui;
-    font-size: 35px;
-    color: var(--color-primary-3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 #size
@@ -104,7 +103,7 @@ h1
 
 #copy:hover
 {
-    color: var(--color-primary-5);
+    color: white;
 }
 
 #password_items
@@ -119,13 +118,12 @@ h1
     padding: 18px;
 }
 
-/* CSS - BTN Gerar senha*/
 #generate
 {
     font-family: "Press Start 2P", system-ui;
     margin: 0;
-    color: var(--color-primary-5);
-    background-color: var(--color-primary-3);
+    color: white;
+    background-color: var(--color-primary-4);
     font-size: 14px;
     font-weight: 300;
     padding: 9px 100px;
@@ -137,14 +135,13 @@ h1
 
 #generate:hover
 {
-    background-color: var(--color-primary-2);
-    color: white;
+    background-color: white;
+    color: var(--color-primary-4);
 }
 
-/* CSS - BTN Links*/
 .github_btn a
 {
-    color: var(--color-primary-3);
+    color: white;
     padding: 16px;
     text-decoration: none;
     display: inline-block;
@@ -153,7 +150,7 @@ h1
 
 .github_btn a:hover
 {
-    color: var(--color-primary-1);
+    color: var(--color-primary-4);
 }
 
 @media screen and (max-width:480px)
